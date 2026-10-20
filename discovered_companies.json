@@ -1,0 +1,752 @@
+[
+  {
+    "name": "3M",
+    "ats": "workday",
+    "slug": "https://3m.wd1.myworkdayjobs.com/Search"
+  },
+  {
+    "name": "Abbott",
+    "ats": "workday",
+    "slug": "https://abbott.wd5.myworkdayjobs.com/abbottcareers"
+  },
+  {
+    "name": "Abbott (abbottcareers2)",
+    "ats": "workday",
+    "slug": "https://abbott.wd5.myworkdayjobs.com/abbottcareers2"
+  },
+  {
+    "name": "Abbott (Agency)",
+    "ats": "workday",
+    "slug": "https://abbott.wd5.myworkdayjobs.com/Agency"
+  },
+  {
+    "name": "Accenture",
+    "ats": "workday",
+    "slug": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
+  },
+  {
+    "name": "Accenture (AvanadeCareers)",
+    "ats": "workday",
+    "slug": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers"
+  },
+  {
+    "name": "Adobe",
+    "ats": "workday",
+    "slug": "https://adobe.wd5.myworkdayjobs.com/external_experienced"
+  },
+  {
+    "name": "Allstate",
+    "ats": "workday",
+    "slug": "https://allstate.wd5.myworkdayjobs.com/Agent"
+  },
+  {
+    "name": "Allstate (allstate_careers)",
+    "ats": "workday",
+    "slug": "https://allstate.wd5.myworkdayjobs.com/allstate_careers"
+  },
+  {
+    "name": "Ally",
+    "ats": "workday",
+    "slug": "https://ally.wd1.myworkdayjobs.com/Ally"
+  },
+  {
+    "name": "Amgen",
+    "ats": "workday",
+    "slug": "https://amgen.wd1.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "Amgen (agency)",
+    "ats": "workday",
+    "slug": "https://amgen.wd1.myworkdayjobs.com/agency"
+  },
+  {
+    "name": "Analog Devices",
+    "ats": "workday",
+    "slug": "https://analogdevices.wd1.myworkdayjobs.com/External"
+  },
+  {
+    "name": "Applied Materials",
+    "ats": "workday",
+    "slug": "https://amat.wd1.myworkdayjobs.com/External"
+  },
+  {
+    "name": "AstraZeneca",
+    "ats": "workday",
+    "slug": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "AstraZeneca (Alexion)",
+    "ats": "workday",
+    "slug": "https://astrazeneca.wd3.myworkdayjobs.com/Alexion"
+  },
+  {
+    "name": "AstraZeneca (broadbean_external)",
+    "ats": "workday",
+    "slug": "https://astrazeneca.wd3.myworkdayjobs.com/broadbean_external"
+  },
+  {
+    "name": "AT&T",
+    "ats": "workday",
+    "slug": "https://att.wd1.myworkdayjobs.com/ATTGeneral"
+  },
+  {
+    "name": "AT&T (ATTCollege)",
+    "ats": "workday",
+    "slug": "https://att.wd1.myworkdayjobs.com/ATTCollege"
+  },
+  {
+    "name": "Autodesk",
+    "ats": "workday",
+    "slug": "https://autodesk.wd1.myworkdayjobs.com/Ext"
+  },
+  {
+    "name": "Autodesk (uni)",
+    "ats": "workday",
+    "slug": "https://autodesk.wd1.myworkdayjobs.com/uni"
+  },
+  {
+    "name": "BlackRock",
+    "ats": "workday",
+    "slug": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"
+  },
+  {
+    "name": "BMO",
+    "ats": "workday",
+    "slug": "https://bmo.wd3.myworkdayjobs.com/External"
+  },
+  {
+    "name": "BMO (Campus)",
+    "ats": "workday",
+    "slug": "https://bmo.wd3.myworkdayjobs.com/Campus"
+  },
+  {
+    "name": "Boeing",
+    "ats": "workday",
+    "slug": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS"
+  },
+  {
+    "name": "Boeing (external_subsidiary)",
+    "ats": "workday",
+    "slug": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary"
+  },
+  {
+    "name": "Boeing (external_ukcontingentworker)",
+    "ats": "workday",
+    "slug": "https://boeing.wd1.myworkdayjobs.com/external_ukcontingentworker"
+  },
+  {
+    "name": "Booz Allen Hamilton",
+    "ats": "workday",
+    "slug": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs"
+  },
+  {
+    "name": "Booz Allen Hamilton (Confidential)",
+    "ats": "workday",
+    "slug": "https://bah.wd1.myworkdayjobs.com/Confidential"
+  },
+  {
+    "name": "Broadcom",
+    "ats": "workday",
+    "slug": "https://broadcom.wd1.myworkdayjobs.com/External_Career"
+  },
+  {
+    "name": "Broadridge",
+    "ats": "workday",
+    "slug": "https://broadridge.wd5.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "Cadence",
+    "ats": "workday",
+    "slug": "https://cadence.wd1.myworkdayjobs.com/External_Careers"
+  },
+  {
+    "name": "Cadence (Univ_Careers)",
+    "ats": "workday",
+    "slug": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers"
+  },
+  {
+    "name": "Cadence (University_CST)",
+    "ats": "workday",
+    "slug": "https://cadence.wd1.myworkdayjobs.com/University_CST"
+  },
+  {
+    "name": "Capital One",
+    "ats": "workday",
+    "slug": "https://capitalone.wd12.myworkdayjobs.com/Capital_One"
+  },
+  {
+    "name": "Centene",
+    "ats": "workday",
+    "slug": "https://centene.wd5.myworkdayjobs.com/Centene_External"
+  },
+  {
+    "name": "CIBC",
+    "ats": "workday",
+    "slug": "https://cibc.wd3.myworkdayjobs.com/search"
+  },
+  {
+    "name": "CIBC (campus)",
+    "ats": "workday",
+    "slug": "https://cibc.wd3.myworkdayjobs.com/campus"
+  },
+  {
+    "name": "Ciena",
+    "ats": "workday",
+    "slug": "https://ciena.wd5.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "Cigna",
+    "ats": "workday",
+    "slug": "https://cigna.wd5.myworkdayjobs.com/cignacareers"
+  },
+  {
+    "name": "CME Group",
+    "ats": "workday",
+    "slug": "https://cmegroup.wd1.myworkdayjobs.com/cme_careers"
+  },
+  {
+    "name": "CVS Health",
+    "ats": "workday",
+    "slug": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers"
+  },
+  {
+    "name": "CVS Health (Private_Postings_Intern_Conversion_ONLY)",
+    "ats": "workday",
+    "slug": "https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY"
+  },
+  {
+    "name": "CVS Health (Private_Postings_Mergers_and_Acquisitions_ONLY)",
+    "ats": "workday",
+    "slug": "https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Mergers_and_Acquisitions_ONLY"
+  },
+  {
+    "name": "Danaher",
+    "ats": "workday",
+    "slug": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs"
+  },
+  {
+    "name": "Elevance Health",
+    "ats": "workday",
+    "slug": "https://elevancehealth.wd1.myworkdayjobs.com/ANT"
+  },
+  {
+    "name": "Elevance Health (carelonglobal_in)",
+    "ats": "workday",
+    "slug": "https://elevancehealth.wd1.myworkdayjobs.com/carelonglobal_in"
+  },
+  {
+    "name": "Elevance Health (carelonglobal_ph)",
+    "ats": "workday",
+    "slug": "https://elevancehealth.wd1.myworkdayjobs.com/carelonglobal_ph"
+  },
+  {
+    "name": "Emerson",
+    "ats": "workday",
+    "slug": "https://emerson.wd5.myworkdayjobs.com/Emerson_College_Staff"
+  },
+  {
+    "name": "Emerson (Emerson_College_Affiliated_Faculty)",
+    "ats": "workday",
+    "slug": "https://emerson.wd5.myworkdayjobs.com/Emerson_College_Affiliated_Faculty"
+  },
+  {
+    "name": "Emerson (Emerson_College_FT_Faculty)",
+    "ats": "workday",
+    "slug": "https://emerson.wd5.myworkdayjobs.com/Emerson_College_FT_Faculty"
+  },
+  {
+    "name": "Expedia",
+    "ats": "workday",
+    "slug": "https://expedia.wd108.myworkdayjobs.com/search"
+  },
+  {
+    "name": "Expedia Group",
+    "ats": "workday",
+    "slug": "https://expedia.wd108.myworkdayjobs.com/search"
+  },
+  {
+    "name": "FactSet",
+    "ats": "workday",
+    "slug": "https://factset.wd108.myworkdayjobs.com/FactSetCareers"
+  },
+  {
+    "name": "Fifth Third",
+    "ats": "workday",
+    "slug": "https://fifththird.wd5.myworkdayjobs.com/53careers"
+  },
+  {
+    "name": "Fifth Third (Dividendcareers)",
+    "ats": "workday",
+    "slug": "https://fifththird.wd5.myworkdayjobs.com/Dividendcareers"
+  },
+  {
+    "name": "Fifth Third (Providecareers)",
+    "ats": "workday",
+    "slug": "https://fifththird.wd5.myworkdayjobs.com/Providecareers"
+  },
+  {
+    "name": "FIS",
+    "ats": "workday",
+    "slug": "https://fis.wd5.myworkdayjobs.com/SearchJobs"
+  },
+  {
+    "name": "FIS (AgencyCareerSite)",
+    "ats": "workday",
+    "slug": "https://fis.wd5.myworkdayjobs.com/AgencyCareerSite"
+  },
+  {
+    "name": "Fiserv",
+    "ats": "workday",
+    "slug": "https://fiserv.wd5.myworkdayjobs.com/EXT"
+  },
+  {
+    "name": "Franklin Templeton",
+    "ats": "workday",
+    "slug": "https://franklintempleton.wd5.myworkdayjobs.com/Jobs-Clarion"
+  },
+  {
+    "name": "Franklin Templeton (Clarion-Private)",
+    "ats": "workday",
+    "slug": "https://franklintempleton.wd5.myworkdayjobs.com/Clarion-Private"
+  },
+  {
+    "name": "GE Aerospace",
+    "ats": "workday",
+    "slug": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite"
+  },
+  {
+    "name": "GE Aerospace (Only_Confidential_Executive_Recruiting)",
+    "ats": "workday",
+    "slug": "https://geaerospace.wd5.myworkdayjobs.com/Only_Confidential_Executive_Recruiting"
+  },
+  {
+    "name": "Gilead",
+    "ats": "workday",
+    "slug": "https://gilead.wd1.myworkdayjobs.com/gileadcareers"
+  },
+  {
+    "name": "Gilead (gileadhotjobcareers)",
+    "ats": "workday",
+    "slug": "https://gilead.wd1.myworkdayjobs.com/gileadhotjobcareers"
+  },
+  {
+    "name": "Gilead (kitepharmacareers)",
+    "ats": "workday",
+    "slug": "https://gilead.wd1.myworkdayjobs.com/kitepharmacareers"
+  },
+  {
+    "name": "Hewlett Packard Enterprise",
+    "ats": "workday",
+    "slug": "https://hpe.wd5.myworkdayjobs.com/ACJobSite"
+  },
+  {
+    "name": "Hewlett Packard Enterprise (Jobsathpe)",
+    "ats": "workday",
+    "slug": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe"
+  },
+  {
+    "name": "Hewlett Packard Enterprise (WFMathpe)",
+    "ats": "workday",
+    "slug": "https://hpe.wd5.myworkdayjobs.com/WFMathpe"
+  },
+  {
+    "name": "HP",
+    "ats": "workday",
+    "slug": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite"
+  },
+  {
+    "name": "Humana",
+    "ats": "workday",
+    "slug": "https://humana.wd5.myworkdayjobs.com/CenterWell_External_Career_Site"
+  },
+  {
+    "name": "Humana (Humana_External_Career_Site)",
+    "ats": "workday",
+    "slug": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site"
+  },
+  {
+    "name": "Illumina",
+    "ats": "workday",
+    "slug": "https://illumina.wd1.myworkdayjobs.com/illumina-careers"
+  },
+  {
+    "name": "Intel",
+    "ats": "workday",
+    "slug": "https://intel.wd1.myworkdayjobs.com/External"
+  },
+  {
+    "name": "Invesco",
+    "ats": "workday",
+    "slug": "https://invesco.wd1.myworkdayjobs.com/IVZ"
+  },
+  {
+    "name": "Invesco (IVZearlycareers)",
+    "ats": "workday",
+    "slug": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers"
+  },
+  {
+    "name": "Johnson Controls",
+    "ats": "workday",
+    "slug": "https://jci.wd5.myworkdayjobs.com/JCI"
+  },
+  {
+    "name": "Johnson Controls (JCI_Confidential)",
+    "ats": "workday",
+    "slug": "https://jci.wd5.myworkdayjobs.com/JCI_Confidential"
+  },
+  {
+    "name": "Johnson Controls (TUPU)",
+    "ats": "workday",
+    "slug": "https://jci.wd5.myworkdayjobs.com/TUPU"
+  },
+  {
+    "name": "KLA",
+    "ats": "workday",
+    "slug": "https://kla.wd1.myworkdayjobs.com/Search"
+  },
+  {
+    "name": "KLA (Israel)",
+    "ats": "workday",
+    "slug": "https://kla.wd1.myworkdayjobs.com/Israel"
+  },
+  {
+    "name": "KLA (UR)",
+    "ats": "workday",
+    "slug": "https://kla.wd1.myworkdayjobs.com/UR"
+  },
+  {
+    "name": "Leidos",
+    "ats": "workday",
+    "slug": "https://leidos.wd5.myworkdayjobs.com/External"
+  },
+  {
+    "name": "Logitech",
+    "ats": "workday",
+    "slug": "https://logitech.wd5.myworkdayjobs.com/Logitech"
+  },
+  {
+    "name": "Lumentum",
+    "ats": "workday",
+    "slug": "https://lumentum.wd5.myworkdayjobs.com/LITE"
+  },
+  {
+    "name": "Marvell",
+    "ats": "workday",
+    "slug": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers"
+  },
+  {
+    "name": "MassMutual",
+    "ats": "workday",
+    "slug": "https://massmutual.wd1.myworkdayjobs.com/MMINDCareersite"
+  },
+  {
+    "name": "MassMutual (MMAscendCareers)",
+    "ats": "workday",
+    "slug": "https://massmutual.wd1.myworkdayjobs.com/MMAscendCareers"
+  },
+  {
+    "name": "MassMutual (MMROCareerSite)",
+    "ats": "workday",
+    "slug": "https://massmutual.wd1.myworkdayjobs.com/MMROCareerSite"
+  },
+  {
+    "name": "Mastercard",
+    "ats": "workday",
+    "slug": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers"
+  },
+  {
+    "name": "Mastercard (Campus)",
+    "ats": "workday",
+    "slug": "https://mastercard.wd1.myworkdayjobs.com/Campus"
+  },
+  {
+    "name": "Mastercard (ContractorConversion)",
+    "ats": "workday",
+    "slug": "https://mastercard.wd1.myworkdayjobs.com/ContractorConversion"
+  },
+  {
+    "name": "Medtronic",
+    "ats": "workday",
+    "slug": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers"
+  },
+  {
+    "name": "Merck",
+    "ats": "workday",
+    "slug": "https://msd.wd5.myworkdayjobs.com/SearchJobs"
+  },
+  {
+    "name": "Micron",
+    "ats": "workday",
+    "slug": "https://micron.wd1.myworkdayjobs.com/External"
+  },
+  {
+    "name": "Moderna",
+    "ats": "workday",
+    "slug": "https://modernatx.wd1.myworkdayjobs.com/M_tx"
+  },
+  {
+    "name": "Morgan Stanley",
+    "ats": "workday",
+    "slug": "https://ms.wd5.myworkdayjobs.com/External"
+  },
+  {
+    "name": "Morgan Stanley (private)",
+    "ats": "workday",
+    "slug": "https://ms.wd5.myworkdayjobs.com/private"
+  },
+  {
+    "name": "Morningstar",
+    "ats": "workday",
+    "slug": "https://morningstar.wd5.myworkdayjobs.com/morningstar"
+  },
+  {
+    "name": "Morningstar (Americas)",
+    "ats": "workday",
+    "slug": "https://morningstar.wd5.myworkdayjobs.com/Americas"
+  },
+  {
+    "name": "Morningstar (MorningstarDBRS)",
+    "ats": "workday",
+    "slug": "https://morningstar.wd5.myworkdayjobs.com/MorningstarDBRS"
+  },
+  {
+    "name": "Motorola Solutions",
+    "ats": "workday",
+    "slug": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "Nasdaq",
+    "ats": "workday",
+    "slug": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site"
+  },
+  {
+    "name": "Nasdaq (US_External_Career_Site)",
+    "ats": "workday",
+    "slug": "https://nasdaq.wd1.myworkdayjobs.com/US_External_Career_Site"
+  },
+  {
+    "name": "Nationwide",
+    "ats": "workday",
+    "slug": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career"
+  },
+  {
+    "name": "Nationwide (Nationwide_Career_India)",
+    "ats": "workday",
+    "slug": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career_India"
+  },
+  {
+    "name": "Northrop Grumman",
+    "ats": "workday",
+    "slug": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site"
+  },
+  {
+    "name": "Nvidia",
+    "ats": "workday",
+    "slug": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+  },
+  {
+    "name": "Pfizer",
+    "ats": "workday",
+    "slug": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+  },
+  {
+    "name": "Pfizer (Canada_Only_External)",
+    "ats": "workday",
+    "slug": "https://pfizer.wd1.myworkdayjobs.com/Canada_Only_External"
+  },
+  {
+    "name": "Pfizer (Costa_Rica_External)",
+    "ats": "workday",
+    "slug": "https://pfizer.wd1.myworkdayjobs.com/Costa_Rica_External"
+  },
+  {
+    "name": "PNC",
+    "ats": "workday",
+    "slug": "https://pnc.wd5.myworkdayjobs.com/External"
+  },
+  {
+    "name": "PNC (HarrisWilliams)",
+    "ats": "workday",
+    "slug": "https://pnc.wd5.myworkdayjobs.com/HarrisWilliams"
+  },
+  {
+    "name": "Prudential",
+    "ats": "workday",
+    "slug": "https://prudential.wd3.myworkdayjobs.com/prudential"
+  },
+  {
+    "name": "Prudential (prudential_eastspring)",
+    "ats": "workday",
+    "slug": "https://prudential.wd3.myworkdayjobs.com/prudential_eastspring"
+  },
+  {
+    "name": "PTC",
+    "ats": "workday",
+    "slug": "https://ptc.wd1.myworkdayjobs.com/PTC"
+  },
+  {
+    "name": "RBC",
+    "ats": "workday",
+    "slug": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1"
+  },
+  {
+    "name": "Regeneron",
+    "ats": "workday",
+    "slug": "https://regeneron.wd1.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "Regeneron (IrelandPrivate)",
+    "ats": "workday",
+    "slug": "https://regeneron.wd1.myworkdayjobs.com/IrelandPrivate"
+  },
+  {
+    "name": "Regeneron (US_Only_University_Relations_Career)",
+    "ats": "workday",
+    "slug": "https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career"
+  },
+  {
+    "name": "Rockwell Automation",
+    "ats": "workday",
+    "slug": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation"
+  },
+  {
+    "name": "Rockwell Automation (External-ERGs)",
+    "ats": "workday",
+    "slug": "https://rockwellautomation.wd1.myworkdayjobs.com/External-ERGs"
+  },
+  {
+    "name": "Rockwell Automation (External-Rockwell-Automation-Early-Careers)",
+    "ats": "workday",
+    "slug": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+  },
+  {
+    "name": "S&P Global",
+    "ats": "workday",
+    "slug": "https://spgi.wd5.myworkdayjobs.com/SPGI_Internal"
+  },
+  {
+    "name": "S&P Global (Kensho_Careers)",
+    "ats": "workday",
+    "slug": "https://spgi.wd5.myworkdayjobs.com/Kensho_Careers"
+  },
+  {
+    "name": "S&P Global (SPGI_Careers)",
+    "ats": "workday",
+    "slug": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers"
+  },
+  {
+    "name": "Salesforce",
+    "ats": "workday",
+    "slug": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"
+  },
+  {
+    "name": "Salesforce (Futureforce_Internships)",
+    "ats": "workday",
+    "slug": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships"
+  },
+  {
+    "name": "Salesforce (Futureforce_NewGradRoles)",
+    "ats": "workday",
+    "slug": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles"
+  },
+  {
+    "name": "Sanofi",
+    "ats": "workday",
+    "slug": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers"
+  },
+  {
+    "name": "State Street",
+    "ats": "workday",
+    "slug": "https://statestreet.wd1.myworkdayjobs.com/Global"
+  },
+  {
+    "name": "State Street (eQuest)",
+    "ats": "workday",
+    "slug": "https://statestreet.wd1.myworkdayjobs.com/eQuest"
+  },
+  {
+    "name": "Stryker",
+    "ats": "workday",
+    "slug": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers"
+  },
+  {
+    "name": "T. Rowe Price",
+    "ats": "workday",
+    "slug": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice"
+  },
+  {
+    "name": "T. Rowe Price (TRowePriceContingent)",
+    "ats": "workday",
+    "slug": "https://troweprice.wd5.myworkdayjobs.com/TRowePriceContingent"
+  },
+  {
+    "name": "T. Rowe Price (TRowePriceInternational)",
+    "ats": "workday",
+    "slug": "https://troweprice.wd5.myworkdayjobs.com/TRowePriceInternational"
+  },
+  {
+    "name": "Target",
+    "ats": "workday",
+    "slug": "https://target.wd5.myworkdayjobs.com/targetcareers"
+  },
+  {
+    "name": "TransUnion",
+    "ats": "workday",
+    "slug": "https://transunion.wd5.myworkdayjobs.com/TransUnion"
+  },
+  {
+    "name": "Travelers",
+    "ats": "workday",
+    "slug": "https://travelers.wd5.myworkdayjobs.com/External"
+  },
+  {
+    "name": "Travelers (SimplyBusinesssExternal)",
+    "ats": "workday",
+    "slug": "https://travelers.wd5.myworkdayjobs.com/SimplyBusinesssExternal"
+  },
+  {
+    "name": "Truist",
+    "ats": "workday",
+    "slug": "https://truist.wd1.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "Truist (AFCO)",
+    "ats": "workday",
+    "slug": "https://truist.wd1.myworkdayjobs.com/AFCO"
+  },
+  {
+    "name": "Vanguard",
+    "ats": "workday",
+    "slug": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external"
+  },
+  {
+    "name": "Vanguard (contractors_restricted)",
+    "ats": "workday",
+    "slug": "https://vanguard.wd5.myworkdayjobs.com/contractors_restricted"
+  },
+  {
+    "name": "Workday",
+    "ats": "workday",
+    "slug": "https://workday.wd5.myworkdayjobs.com/Workday"
+  },
+  {
+    "name": "Workday (Workday_Early_Career)",
+    "ats": "workday",
+    "slug": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career"
+  },
+  {
+    "name": "Workday (Workday_Jobs)",
+    "ats": "workday",
+    "slug": "https://workday.wd5.myworkdayjobs.com/Workday_Jobs"
+  },
+  {
+    "name": "Zebra Technologies",
+    "ats": "workday",
+    "slug": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers"
+  },
+  {
+    "name": "Zillow",
+    "ats": "workday",
+    "slug": "https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External"
+  }
+]

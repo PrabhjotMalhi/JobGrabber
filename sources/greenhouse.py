@@ -1,6 +1,6 @@
 import aiohttp
 
-API_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
+API_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
 
 
 async def fetch_jobs(session: aiohttp.ClientSession, slug: str) -> list[dict]:
