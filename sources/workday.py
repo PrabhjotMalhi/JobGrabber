@@ -4,8 +4,6 @@ Workday career sites (https://<tenant>.wd<N>.myworkdayjobs.com/<site>).
 Workday has no documented public API. Every career site's own web page loads its
 job list from an unauthenticated JSON endpoint, and this connector reads that same
 endpoint. It is unofficial, so Workday can change it without notice.
-
-In config.py, give each company its careers-page URL (copy it from your browser).
 """
 import asyncio
 import logging
@@ -19,24 +17,19 @@ import config
 
 log = logging.getLogger("jobbot")
 
-# Leave SEARCH_TEXT empty: Workday then returns the NEWEST jobs first, which lets us stop
-# paging as soon as we reach old postings. With a keyword, Workday sorts by relevance
-# instead, so recent jobs can be buried far down the list and never seen.
-SEARCH_TEXT = ""
-MAX_PAGES = 10        # safety cap per company per check (20 jobs per page)
+SEARCH_TEXT = ""      # empty = Workday returns the NEWEST jobs first
+MAX_PAGES = 10
 PAGE_SIZE = 20        # Workday rejects anything larger with HTTP 400
-PAGE_DELAY = 1.0      # seconds to wait between pages
+PAGE_DELAY = 1.0
 
-# Rate limiting (HTTP 429): wait and retry, then give that company a rest.
-RETRY_WAITS = (5, 15, 45)        # seconds before retry 1, 2, 3 (Retry-After overrides these)
+RETRY_WAITS = (5, 15, 45)
 MAX_RETRY_AFTER = 120
 COOLDOWN_SECONDS = 15 * 60
 
 _LOCALE_RE = re.compile(r"^[a-z]{2}([-_][A-Za-z]{2})?$")
 
-# In-memory state (resets when the bot restarts)
-_frontier: dict[str, set] = {}          # job IDs seen in the last complete scan of each site
-_cooldown_until: dict[str, float] = {}  # site -> time before which we don't call it
+_frontier: dict[str, set] = {}
+_cooldown_until: dict[str, float] = {}
 
 
 async def _sleep(seconds: float):
@@ -51,14 +44,13 @@ def parse_careers_url(url: str):
         raise ValueError("must be an https://<company>.wd<N>.myworkdayjobs.com/<site> URL")
     parts = [s for s in p.path.split("/") if s]
     if parts and _LOCALE_RE.match(parts[0]):
-        parts = parts[1:]  # skip a language segment like en-US
+        parts = parts[1:]
     if not parts:
         raise ValueError("URL is missing the site name after myworkdayjobs.com/")
     return host, host.split(".")[0], parts[0]
 
 
 def _posted_to_epoch(text, now):
-    """Workday gives relative dates: 'Posted Today', 'Posted 3 Days Ago', 'Posted 30+ Days Ago'."""
     if not text:
         return None
     t = text.lower()
@@ -78,11 +70,10 @@ def _retry_after_seconds(value):
     try:
         return max(0, int(str(value).strip()))
     except (TypeError, ValueError):
-        return None  # missing, or an HTTP-date we don't parse
+        return None
 
 
 async def _post_json(session, api, payload, key):
-    """POST and return the parsed JSON, or None on failure. Handles HTTP 429 politely."""
     for attempt in range(len(RETRY_WAITS) + 1):
         status, retry_after, data = None, None, None
         try:
@@ -131,8 +122,8 @@ async def fetch_jobs(session: aiohttp.ClientSession, careers_url: str) -> list[d
     now = time.time()
     newest_first = not SEARCH_TEXT
     window_days = getattr(config, "MAX_POSTING_AGE_DAYS", 2)
-    stop_before = now - (window_days + 1) * 86400   # once a whole page is older than this, stop
-    previous = _frontier.get(key)                    # IDs from our last complete scan, if any
+    stop_before = now - (window_days + 1) * 86400
+    previous = _frontier.get(key)
     jobs, seen_ids, total, pages, complete = [], set(), 0, 0, True
 
     for page in range(MAX_PAGES):
@@ -149,7 +140,7 @@ async def fetch_jobs(session: aiohttp.ClientSession, careers_url: str) -> list[d
             break
         pages += 1
         if page == 0:
-            total = data.get("total") or 0  # later pages often report total = 0, so remember page 1's
+            total = data.get("total") or 0
         postings = data.get("jobPostings") or []
 
         page_dates, page_ids = [], []
@@ -161,6 +152,8 @@ async def fetch_jobs(session: aiohttp.ClientSession, careers_url: str) -> list[d
                 path = "/job" + path
             job_id = path or p.get("title", "")
             page_ids.append(job_id)
+            slug = re.match(r"^/job/([^/]+)/", path)
+            location_hint = re.sub(r"[-_]+", " ", slug.group(1)).strip() if slug else ""
             if not job_id or job_id in seen_ids:
                 continue
             seen_ids.add(job_id)
@@ -170,17 +163,15 @@ async def fetch_jobs(session: aiohttp.ClientSession, careers_url: str) -> list[d
                     "title": p.get("title", "Untitled role"),
                     "url": f"https://{host}/{site}{path}",
                     "location": p.get("locationsText") or "Unknown location",
+                    "location_hint": location_hint,
                     "date_posted": date_posted,
                 }
             )
 
         if len(postings) < PAGE_SIZE or (total and offset + PAGE_SIZE >= total):
             break
-        # Newest-first list: once a page ENDS on a job we already saw last time, everything
-        # after it is old news. This keeps routine checks to about one request per company.
         if newest_first and previous and page_ids and page_ids[-1] in previous:
             break
-        # ...or once a whole page is older than the posting window.
         if newest_first and page_dates and all(d is not None and d < stop_before for d in page_dates):
             break
         await _sleep(PAGE_DELAY)
