@@ -116,6 +116,8 @@ COMPANIES = [
     {"name": "EY", "ats": "successfactors", "slug": "https://careers.ey.com/ey/search/?q=&locationsearch=United+States"},
     {"name": "Baker Tilly", "ats": "workday", "slug": "https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers"},
     {"name": "Raymond Chabot Grant Thornton", "ats": "workday", "slug": "https://rcgt.wd3.myworkdayjobs.com/en-US/External"},
+    {"name": "Interac", "ats": "workday", "slug": "https://interac.wd3.myworkdayjobs.com/en-US/Interac"},
+    {"name": "BDO", "ats": "workday", "slug": "https://bdo.wd3.myworkdayjobs.com/en-US/BDO"},
 
     # ----- Startups / unicorns (slugs are from memory: check_companies.py flags any that are wrong) -----
     {"name": "Rippling", "ats": "ashby", "slug": "rippling"},
@@ -147,6 +149,10 @@ COMPANIES = [
     {"name": "Ironclad", "ats": "ashby", "slug": "ironclad"},
     {"name": "Hightouch", "ats": "ashby", "slug": "hightouch"},
     {"name": "Statsig", "ats": "ashby", "slug": "statsig"},
+
+    {"name": "Canada Goose", "ats": "workday", "slug": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers"},
+    # TJX runs a Phenom site (same kind as RBC). Its store jobs are filtered out automatically.
+    {"name": "TJX", "ats": "phenom", "slug": "https://jobs.tjx.com/global/en/search-results"},
 
     # ----- Amazon (FAANG) - amazon.jobs, US + Canada; the slug is the search phrase -----
     {"name": "Amazon", "ats": "amazon", "slug": "software development engineer"},

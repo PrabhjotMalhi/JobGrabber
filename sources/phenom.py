@@ -69,8 +69,9 @@ async def _discover_site(session, careers_url, key):
         log.warning("%s: couldn't find the site's refNum on %s (not a Phenom page, or layout changed)", key, careers_url)
         return None
     parts = [s for s in urlparse(careers_url).path.split("/") if s]
-    country, lang = (parts[0].lower(), parts[1].lower()) if len(parts) >= 2 and len(parts[0]) == 2 else ("us", "en")
-    base = re.search(r'"baseUrl"\s*:\s*"https?://[^"/]+/([a-z]{2})/([a-z]{2})/?"', page)
+    # /ca/en/search-results -> country "ca", language "en";  /global/en/search-results -> "global", "en"
+    country, lang = (parts[0].lower(), parts[1].lower()) if len(parts) >= 2 and len(parts[1]) == 2 else ("us", "en")
+    base = re.search(r'"baseUrl"\s*:\s*"https?://[^"/]+/([a-z]{2,10})/([a-z]{2})/?"', page)
     if base:
         country, lang = base.group(1), base.group(2)
     _site_cache[careers_url] = (ref.group(1), country, lang)
